@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #ifdef HZ_PLATFORM_WINDOWAS
 #ifdef HAZEL_BUILD_DLL 
@@ -9,3 +9,5 @@
 #else 
 	#error Hazel only support Windows!
 #endif // HZ_PLATFORM_WINDOWAS
+
+#define BIT(X) (1 << X)
